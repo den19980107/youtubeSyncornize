@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: lightskyblue;
+}
+
+.headder {
+    width: 768px;
+    height: 50px;
+    background: #ccc;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headder p {
+    padding-top: 10px;
+}
+
+.container {
+    width: 768px;
+    height: 480px;
+    background: white;
+    margin: 0 auto;
+}
+
+#left {
+    position: relative;
+    float: left;
+    width: 314px;
+}
+
+#right {
+    position: relative;
+    float: right;
+    width: 314px;
+}
+
+#middle {
+    position: relative;
+    float: left;
+    height: 480px;
+}
+
+#middle img {
+    height: 480px;
+    width: 140px;
+}
