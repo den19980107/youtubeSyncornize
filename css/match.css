@@ -5,15 +5,16 @@
 }
 
 body {
-    background: lightskyblue;
+    background: rgb(99, 158, 253);
 }
 
 .headder {
     width: 768px;
     height: 50px;
-    background: #ccc;
+    background: rgb(99, 158, 253);
     margin: 0 auto;
     text-align: center;
+    color: white;
 }
 
 .headder p {
@@ -31,12 +32,72 @@ body {
     position: relative;
     float: left;
     width: 314px;
+    text-align: center;
+}
+
+#left #title {
+    display: block;
+    margin: 20px;
+}
+
+#left img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#left p {
+    display: inline;
+}
+
+#left #UserName {
+    display: inline;
+}
+
+#left #findRoom {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#left #play {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
 }
 
 #right {
     position: relative;
     float: right;
     width: 314px;
+}
+
+#right #loginFacebook {
+    display: block;
+    background: rgb(52, 141, 246);
+    height: 30px;
+    width: 180px;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 210px;
+    margin-bottom: 20px;
+}
+
+#right #loginGoogle {
+    display: block;
+    background: rgb(235, 72, 38);
+    height: 30px;
+    width: 180px;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
 #middle {

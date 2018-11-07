@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: rgb(99, 158, 253);
+}
+
+.headder {
+    width: 768px;
+    height: 50px;
+    background: rgb(99, 158, 253);
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.headder p {
+    padding-top: 10px;
+}
+
+.container {
+    width: 768px;
+    height: 480px;
+    background: white;
+    margin: 0 auto;
+}
+
+#roomTitle {
+    background: rgb(240, 194, 82);
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#roomTitle p {
+    padding-top: 10px;
+
+}
+
+#left {
+    position: relative;
+    float: left;
+    height: 87%;
+    width: 20%;
+    margin: 0 10px;
+
+}
+
+#left h4 {
+    text-align: center;
+}
+
+#center {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 83%;
+    background: #7d7edf;
+    padding: 10px;
+}
+
+#center input {
+    width: 80%;
+    border: none;
+    height: 30px;
+    padding: 0 3px;
+}
+
+#center button {
+    border: none;
+    height: 30px;
+    padding: 3px;
+    background: rgb(245, 84, 84);
+    color: white;
+    position: relative;
+    float: right;
+}
+
+.user {
+    background: #7d7edf;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 7px;
+    width: 80%;
+}
+
+.user img {
+    display: inline;
+    width: 30px;
+    height: 30px;
+}
+
+.user p {
+    display: inline;
+    color: white;
+}
+
+#left-container {
+    background: #6be49d;
+    padding-top: 10px;
+
+    height: 98%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>videoSynchronize</title>
+    <link rel="stylesheet" href="css/findRoom.css">
+</head>
+
+<body>
+    <div class="headder">
+        <p>videoSynchronize</p>
+    </div>
+    <div class="container">
+        <div id="title">
+            <button id="backBtn" onclick="window.location.href='/index.html'">back</button>
+            <p>SETUP ROOM</p>
+        </div>
+        <div class="section">
+            <br>
+            <div id="left">
+                <p id="title">設定</p>
+                <div>
+                    <p id="content">觀看人數</p>
+                    <select id="select">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+
+                <br>
+                <div>
+                    <p id="content">公開房間</p>
+                    <label class="switch">
+                        <input type="checkbox" id="isPublic">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+
+            </div>
+            <div id="right">
+                <p>房間名稱</p>
+                <input type="text" id="roomNum">
+                <button id="check">check</button>
+                <button id="createRoom">開房間！</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="js/findRoom.js"></script>
+
+</html>
